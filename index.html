@@ -1,55 +1,250 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
-      rel="stylesheet">
-    <title>Портфолио Junior верстальщика</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
-    <header class="page-header">
-      <div class="container">
-        Контакты в шапке
-      </div>      
-    </header>
+    <!-- Main section-->
+    <div class="main-section">
+      <!-- Main content section-->
+      <div class="main-content-section">
+        <!--About me section-->
+        <div class="about-me-section">
+          <h2 class="about-me-profession">Junior Full Stack Web Developer</h2>
+          <h1 class="about-me-name">Вадим Владимиров</h1>
 
-    <section class="hero-image">
-      <div class="container">
-        <h1 class="heading">Опознанный Енот</h1>
-        <p>Junior верстальщик</p>
+          <p class="about-me-description">
+            Мне 30 лет, женат, есть дочка 2 годика. Всегда задумывался о сфере
+            ІТ, но думал, что это слишком сложное и нужно этому долго учиться.
+            После пройденого 7 дневного марафона по верстке не увидел чего-то
+            трудного для себя, по этому решил записаться на курсы GOIT по
+            специальности Full Stack Wed Developer (React, Node.js, React
+            Native). Могу охарактеризовать себя как усердного и
+            целеустремленного человека, с ответственостью в выполнение задач, что
+            отлично сказываеться в верстке.
+          </p>
+        </div>
+
+        <!--My projects-->
+        <div class="my-project-section">
+          <h3 class="main-content-title">Projects</h3>
+
+          <ol class="my-project-list">
+            <li class="my-project-item">
+              <span class="my-project-text">
+                <a
+                  href="https://divladimirov.github.io/goit-markup-hw-03/"
+                  class="my-project-link"
+                  >https://divladimirov.github.io/goit-markup-hw-03/</a
+                >
+                ..........
+                <span class="my-project-bracket">[</span> HTML5, CSS3
+                <span class="my-project-bracket">]</span>
+              </span>
+            </li>
+            <!-- <li class="my-project-item">
+              <span class="my-project-text">
+                <a href="https://cryptohub.goit.global/" class="my-project-link"
+                  >https://cryptohub.goit.global/</a
+                >
+                ............
+                <span class="my-project-bracket">[</span> JavaScript
+                <span class="my-project-bracket">]</span>
+              </span>
+            </li>
+            <li class="my-project-item">
+              <span class="my-project-text">
+                <a href="https://kidslike.goit.global/" class="my-project-link"
+                  >https://kidslike.goit.global/</a
+                >
+                ..................
+                <span class="my-project-bracket">[</span> React.js, Node.js
+                <span class="my-project-bracket">]</span>
+              </span>
+            </li> -->
+          </ol>
+        </div>
+
+        <!--My work expirience-->
+        <div class="my-work-experience-section">
+          <h3 class="main-content-title">Опыт работы</h3>
+
+          <!--Company 3-->
+          <div class="my-work-experience-company-block">
+            <h4 class="my-work-experience-position">
+              Руководитель Торгового отдела
+              <span class="my-work-experience-company">Епицентр К</span>
+            </h4>
+            <p class="my-work-experience-period">
+              Март 2021 - до сих пор
+              <!-- <span class="my-work-experience-divider">|</span> Country -->
+            </p>
+
+            <ul class="my-work-experience-duties">
+              <li class="my-work-experience-duty">
+                Заведующий секцией: октябрь 2015 - март 2021
+              </li>
+              <li class="my-work-experience-duty">
+                Старший продавец: апрель 2015 - октябрь 2015
+              </li>
+              <li class="my-work-experience-duty">
+                Продавец: ноябрь 2014 - апрель 2015
+              </li>
+            </ul>
+          </div>
+
+          <!--Company 2-->
+          <div>
+            <h4 class="my-work-experience-position">
+              Кровельщик
+              <span class="my-work-experience-company">ФОП</span>
+            </h4>
+            <p class="my-work-experience-period">
+              Март 2013 - Октябрь 2014
+              <!-- <span class="my-work-experience-divider">|</span> Country -->
+            </p>
+
+            <!-- <ul class="my-work-experience-duties">
+              <li class="my-work-experience-duty">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod labore et dolore magna aliqua.
+              </li>
+              <li class="my-work-experience-duty">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="my-work-experience-duty">
+                Risus commodo viverra maecenas.
+              </li> -->
+            </ul>
+          </div>
+
+          <!--Company 1-->
+          <div>
+            <h4 class="my-work-experience-position">
+              Монтажник кондиционеров
+              <span class="my-work-experience-company">ФОП</span>
+            </h4>
+            <p class="my-work-experience-period">
+              Апрель 2011 - Октябрь 2011
+              <!-- <span class="my-work-experience-divider">|</span> Country -->
+            </p>
+
+            <!-- <ul class="my-work-experience-duties">
+              <li class="my-work-experience-duty">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="my-work-experience-duty">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="my-work-experience-duty">
+                Risus commodo viverra maecenas.
+              </li>
+            </ul> -->
+          </div>
+        </div>
+        <!--Education-->
+        <div class="my-education-section">
+          <h3 class="main-content-title">Образование</h3>
+          <h4 class="my-work-experience-company">
+            Сумской Национальный Аграрный Университет
+          </h4>
+          <h4 class="my-work-experience-position">
+            Промышленное и гражданское строительство
+          </h4>
+          <p class="my-work-experience-period">
+            2017-2013
+            <span class="my-work-experience-divider">|</span> Специалист
+          </p>
+          <h4 class="my-work-experience-position">Служба в армии</h4>
+          <p class="my-work-experience-period">
+            2011-2012
+            <span class="my-work-experience-divider">|</span> Сержант
+          </p>
+        </div>
       </div>
-    </section>
+      <!-- sidebar section-->
+      <aside class="sidebar-section">
+        <img
+          src="/img/foto-reume-vadim.jpg"
+          width="370px"
+          alt="my photo"
+        />
 
-    <section class="intro">
-      <div class="container">
-        <h2 class="subheading">Давайте познакомимся</h2>
-        <h3>Пара слов о себе</h3>
-        <p>Текст с парой слов о себе.</p>
-        <h3>Чем могу быть полезен</h3>
-        <p>Текст о том, чем могу быть полезен.</p>
-      </div>
-    </section>
+        <!-- contacts section-->
+        <div class="contacts-section">
+          <h3 class="sidebar-title">Contacts</h3>
+          <div>
+            <span class="contacts-section-type">C:</span>
+            <a class="contacts-section-link" href="tel:+380995459884"
+              >+380 99 54 59 884</a
+            >
+          </div>
+          <div>
+            <span class="contacts-section-type">E:</span>
+            <a class="contacts-section-link" href="mailto:kurtonchik@gmail.com"
+              >kurtonchik@gmail.com</a
+            >
+          </div>
+        </div>
 
-    <section class="portfolio">
-      <div class="container">
-        <h2 class="subheading">Мои работы</h2>
-        
-        <h3>Магазин товаров для дома</h3>
-        <p>Мой первый сайт.</p>
-        
-        <h3>Блог начинающего верстальщика</h3>
-        <p>Статический блог про обучение HTML и CSS.</p>
-      </div>
+        <!-- tech skills section-->
+        <div class="tech-skill-section">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">HTML5</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">CSS3</span>
+              <!-- </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">GIT</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">WebPack</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">JavaScript</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">React.js</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-item-text">Node.js</span>
+            </li> -->
+            </li>
+          </ul>
+        </div>
 
-    </section>
-
-    <footer class="page-footer">
-      <div class="container">
-        Контакты в подвале
-      </div>
-
-    </footer>
+        <!-- soft skills section-->
+        <div class="soft-skills-section">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="soft-skills-list">
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">Scrum</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">Agile</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">GTD</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-item-text">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
   </body>
 </html>
